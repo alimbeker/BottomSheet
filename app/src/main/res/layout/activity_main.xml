@@ -16,7 +16,7 @@
         android:orientation="vertical"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="18dp"
-        tools:layout_editor_absoluteX="0dp">
+        >
 
         <TextView
             android:id="@+id/title"
@@ -296,8 +296,8 @@
             android:layout_height="134dp"
             android:layout_marginStart="28dp"
             android:layout_marginTop="31dp"
+
             android:layout_marginEnd="29dp"
-            android:layout_marginBottom="53dp"
             app:cardBackgroundColor="@color/card_background_color"
             app:cardCornerRadius="30dp">
 
@@ -350,6 +350,14 @@
                 android:textColor="@color/ports" />
 
         </androidx.cardview.widget.CardView>
+
+        <ImageView
+            android:id="@+id/swipe"
+            android:layout_width="76dp"
+            android:layout_height="7dp"
+            android:layout_marginStart="52dp"
+           android:layout_marginTop="15dp"
+            android:src="@drawable/swipe" />
 
 
     </LinearLayout>
