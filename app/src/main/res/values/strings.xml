@@ -6,4 +6,6 @@
     <string name="percent">35%</string>
     <string name="charged">charged</string>
     <string name="nearby_chargers">Nearby Chargers</string>
+    <string name="place">Netherlands, Amsterdam</string>
+    <string name="change_location">Change Location</string>
 </resources>
