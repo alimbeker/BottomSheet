@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background_color"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
@@ -22,5 +23,39 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/big_card_view"
+        android:layout_width="match_parent"
+        android:layout_height="195dp"
+        android:layout_margin ="42dp"
+        app:cardBackgroundColor="@color/card_background_color"
+        app:cardCornerRadius="30dp"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/card_view_text"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="22dp"
+            android:textColor="@color/card_text_color"
+            />
+
+        <ImageView
+            android:layout_width="237dp"
+            android:layout_height="172dp"
+            android:layout_marginStart="167dp"
+            android:src="@drawable/car" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
 
 </LinearLayout>

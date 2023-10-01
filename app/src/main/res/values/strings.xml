@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">XmlDesign</string>
     <string name="title">My vehicle</string>
+    <string name="card_view_text">Audi e-tron Sportback</string>
 </resources>
