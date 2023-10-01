@@ -13,7 +13,7 @@
         android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="40dp"
         android:layout_marginStart="44dp"
         android:text="@string/title"
         android:textColor="@color/text_color"
@@ -28,9 +28,8 @@
         android:id="@+id/big_card_view"
         android:layout_width="match_parent"
         android:layout_height="195dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginBottom="41dp"
         android:layout_marginStart="42dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="44dp"
         app:cardBackgroundColor="@color/card_background_color"
         app:cardCornerRadius="30dp">
@@ -43,8 +42,8 @@
             android:layout_marginTop="22dp"
             android:fontFamily="@font/outfit_style"
             android:text="@string/card_view_text"
-            android:textSize="20sp"
-            android:textColor="@color/card_text_color" />
+            android:textColor="@color/card_text_color"
+            android:textSize="20sp" />
 
         <ImageView
             android:id="@+id/charge"
@@ -76,8 +75,8 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="61dp"
             android:layout_marginTop="61dp"
-            android:text="262"
             android:fontFamily="@font/outfit_regular"
+            android:text="262"
             android:textColor="@color/card_text_color"
             android:textSize="14sp" />
 
@@ -87,9 +86,9 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="61dp"
             android:layout_marginTop="83dp"
+            android:fontFamily="@font/poppins_light_style"
             android:text="@string/km"
             android:textAllCaps="true"
-            android:fontFamily="@font/poppins_light_style"
             android:textColor="@color/light_card_text_color"
             android:textSize="10sp" />
 
@@ -97,13 +96,12 @@
             android:id="@+id/percent_of_charge"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/percent"
-            android:textSize="14sp"
-            android:fontFamily="@font/outfit_regular"
-            android:textColor="@color/card_text_color"
             android:layout_marginStart="61dp"
             android:layout_marginTop="118dp"
-            />
+            android:fontFamily="@font/outfit_regular"
+            android:text="@string/percent"
+            android:textColor="@color/card_text_color"
+            android:textSize="14sp" />
 
         <TextView
             android:id="@+id/state"
@@ -111,8 +109,8 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="61dp"
             android:layout_marginTop="140dp"
-            android:text="@string/charged"
             android:fontFamily="@font/poppins_light_style"
+            android:text="@string/charged"
             android:textAllCaps="true"
             android:textColor="@color/light_card_text_color"
             android:textSize="10sp" />
@@ -125,7 +123,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="43dp"
-
+        android:layout_marginTop="20dp"
         android:fontFamily="@font/outfit_style"
         android:text="@string/nearby_chargers"
         android:textColor="@color/text_color"
@@ -136,6 +134,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         android:orientation="horizontal"
         >
     <TextView
@@ -143,7 +142,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="44dp"
-        android:layout_marginTop="8dp"
         android:fontFamily="@font/poppins_light_style"
         android:text="@string/place"
         android:textColor="@color/light_card_text_color"
@@ -156,13 +154,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
-        android:layout_marginTop="8dp"
         android:fontFamily="@font/poppins_regular_style"
         android:text="@string/change_location"
         android:textColor="@color/link"
         android:textSize="14sp"
 
         />
+
     </LinearLayout>
 
     <androidx.cardview.widget.CardView
@@ -171,15 +169,58 @@
         app:cardBackgroundColor="@color/card_background_color"
         android:layout_marginStart="28dp"
         android:layout_marginEnd="29dp"
+        android:layout_marginTop="25dp"
         app:cardCornerRadius="30dp">
+
+        <ImageView
+            android:layout_width="102dp"
+            android:layout_height="94dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="21dp"
+            android:src="@drawable/station1"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="143dp"
+        android:layout_marginTop="26dp"
         android:fontFamily="@font/outfit_regular"
         android:textSize="20sp"
-
+        android:text = "@string/station1"
+        android:textColor="@color/card_text_color"
         />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="148dp"
+            android:layout_marginTop="56dp"
+            android:fontFamily="@font/poppins_light_style"
+            android:text="@string/street1"
+            android:textSize="12sp"
+            android:textAllCaps="true"
+            android:textColor="@color/card_street_text_color" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "@string/country"
+            android:textSize="12sp"
+            android:fontFamily="@font/poppins_light_style"
+            android:textColor="@color/card_street_text_color"
+            android:layout_marginTop="73dp"
+            android:layout_marginStart="148dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ports"
+            android:fontFamily="@font/poppins_medium_style"
+            android:textColor="@color/ports"
+            android:layout_marginStart="149dp"
+            android:layout_marginTop="99dp"
+            />
+
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
@@ -192,6 +233,54 @@
         app:cardCornerRadius="30dp">
 
 
+        <ImageView
+            android:layout_width="97dp"
+            android:layout_height="94dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="21dp"
+            android:src="@drawable/station2" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="143dp"
+            android:layout_marginTop="26dp"
+            android:fontFamily="@font/outfit_regular"
+            android:textSize="20sp"
+            android:text = "@string/chargepoint_station_2"
+            android:textColor="@color/card_text_color"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="148dp"
+            android:layout_marginTop="56dp"
+            android:fontFamily="@font/poppins_light_style"
+            android:text="@string/street2"
+            android:textSize="12sp"
+            android:textAllCaps="true"
+            android:textColor="@color/card_street_text_color" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "@string/country"
+            android:textSize="12sp"
+            android:fontFamily="@font/poppins_light_style"
+            android:textColor="@color/card_street_text_color"
+            android:layout_marginTop="73dp"
+            android:layout_marginStart="148dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ports2"
+            android:fontFamily="@font/poppins_medium_style"
+            android:textColor="@color/gold"
+            android:layout_marginStart="149dp"
+            android:layout_marginTop="99dp"/>
+
     </androidx.cardview.widget.CardView>
 
 
@@ -203,6 +292,55 @@
         android:layout_marginStart="28dp"
         android:layout_marginEnd="29dp"
         app:cardCornerRadius="30dp">
+
+
+        <ImageView
+            android:layout_width="97dp"
+            android:layout_height="94dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="21dp"
+            android:src="@drawable/station3" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="143dp"
+            android:layout_marginTop="26dp"
+            android:fontFamily="@font/outfit_regular"
+            android:textSize="20sp"
+            android:text = "@string/station3"
+            android:textColor="@color/card_text_color"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="148dp"
+            android:layout_marginTop="56dp"
+            android:fontFamily="@font/poppins_light_style"
+            android:text="@string/street3"
+            android:textSize="12sp"
+            android:textAllCaps="true"
+            android:textColor="@color/card_street_text_color" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "@string/country"
+            android:textSize="12sp"
+            android:fontFamily="@font/poppins_light_style"
+            android:textColor="@color/card_street_text_color"
+            android:layout_marginTop="73dp"
+            android:layout_marginStart="148dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5 Ports Available"
+            android:fontFamily="@font/poppins_medium_style"
+            android:textColor="@color/ports"
+            android:layout_marginStart="149dp"
+            android:layout_marginTop="99dp"/>
 
     </androidx.cardview.widget.CardView>
 

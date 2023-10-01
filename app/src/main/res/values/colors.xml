@@ -11,6 +11,10 @@
     <color name="text_color">#E6DAFF</color>
     <color name="card_background_color">#1A132B</color>
     <color name="card_text_color">#D9C8FF</color>
+    <color name="card_street_text_color">#FAD9C8FF</color>
     <color name="light_card_text_color">#A1DDC7FF</color>
     <color name="link">#8E63EE</color>
+    <color name="ports">#A680FA</color>
+    <color name="gold">#F5CA31</color>
+
 </resources>

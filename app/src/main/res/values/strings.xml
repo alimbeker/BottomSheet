@@ -8,4 +8,13 @@
     <string name="nearby_chargers">Nearby Chargers</string>
     <string name="place">Netherlands, Amsterdam</string>
     <string name="change_location"><u>Change Location</u></string>
+    <string name="station1">ChargePoint Station 1</string>
+    <string name="street1">street pulo 25</string>
+    <string name="ports">8 Ports Available</string>
+    <string name="chargepoint_station_2">ChargePoint Station 2</string>
+    <string name="street2">street srna 74</string>
+    <string name="country">Amsterdam, Netherlands</string>
+    <string name="ports2">2 Ports Available</string>
+    <string name="station3">ChargePoint Station 3</string>
+    <string name="street3">street adas 123 123</string>
 </resources>
