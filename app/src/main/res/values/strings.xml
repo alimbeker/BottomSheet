@@ -2,4 +2,8 @@
     <string name="app_name">XmlDesign</string>
     <string name="title">My vehicle</string>
     <string name="card_view_text">Audi e-tron Sportback</string>
+    <string name="km">kilometre left</string>
+    <string name="percent">35%</string>
+    <string name="charged">charged</string>
+    <string name="nearby_chargers">Nearby Chargers</string>
 </resources>
