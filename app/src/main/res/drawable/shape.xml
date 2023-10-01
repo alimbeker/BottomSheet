@@ -6,12 +6,6 @@
         android:color="#33284E" >
     </solid>
 
-    <padding
-
-        android:top="18dp"
-
-        android:bottom="100dp"    >
-    </padding>
 
     <corners
         android:radius="45dp"   >
