@@ -7,5 +7,5 @@
     <string name="charged">charged</string>
     <string name="nearby_chargers">Nearby Chargers</string>
     <string name="place">Netherlands, Amsterdam</string>
-    <string name="change_location">Change Location</string>
+    <string name="change_location"><u>Change Location</u></string>
 </resources>
