@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="490dp"
-    android:layout_height="1065dp"
-    android:background="@drawable/shape1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape"
     tools:context=".MainActivity" >
 
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
-        android:layout_height="947dp"
-        android:background="@drawable/shape"
+        android:layout_height="wrap_content"
+
         android:orientation="vertical"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="18dp"
@@ -56,8 +59,8 @@
 
             <ImageView
                 android:id="@+id/charge"
-                android:layout_width="match_parent"
-                android:layout_height="172dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="167dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="7dp"
@@ -196,7 +199,7 @@
                 android:fontFamily="@font/outfit_regular"
                 android:text="@string/station1"
                 android:textColor="@color/card_text_color"
-                android:textSize="20sp" />
+                android:textSize="18sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -255,7 +258,7 @@
                 android:fontFamily="@font/outfit_regular"
                 android:text="@string/chargepoint_station_2"
                 android:textColor="@color/card_text_color"
-                android:textSize="20sp" />
+                android:textSize="18sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -317,7 +320,7 @@
                 android:fontFamily="@font/outfit_regular"
                 android:text="@string/station3"
                 android:textColor="@color/card_text_color"
-                android:textSize="20sp" />
+                android:textSize="18sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -351,60 +354,9 @@
 
         </androidx.cardview.widget.CardView>
 
-        <ImageView
-            android:id="@+id/swipe"
-            android:layout_width="76dp"
-            android:layout_height="7dp"
-            android:layout_marginStart="52dp"
-           android:layout_marginTop="15dp"
-            android:src="@drawable/swipe" />
-
 
     </LinearLayout>
 
-    <ImageView
-        android:layout_width="44dp"
-        android:layout_height="44dp"
-        android:layout_marginStart="68dp"
-        android:layout_marginTop="8dp"
-        android:src="@drawable/img"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
-
-    <ImageView
-        android:layout_width="48dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="163dp"
-        android:layout_marginTop="6dp"
-        android:src="@drawable/img_1"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
-
-    <ImageView
-        android:layout_width="45dp"
-        android:layout_height="45dp"
-        android:layout_marginStart="262dp"
-        android:layout_marginTop="8dp"
-        android:src="@drawable/img_2"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
-
-    <ImageView
-        android:layout_width="44dp"
-        android:layout_height="44dp"
-        android:layout_marginStart="360dp"
-        android:layout_marginTop="7dp"
-        android:src="@drawable/img_3"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
-
-    <ImageView
-        android:layout_width="15dp"
-        android:layout_height="15dp"
-        android:layout_marginStart="403dp"
-        android:layout_marginTop="9dp"
-        android:src="@drawable/img_4"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
