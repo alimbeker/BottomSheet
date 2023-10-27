@@ -16,5 +16,6 @@
     <color name="link">#8E63EE</color>
     <color name="ports">#A680FA</color>
     <color name="gold">#F5CA31</color>
+    <color name="background_main_color">#33284E</color>
 
 </resources>

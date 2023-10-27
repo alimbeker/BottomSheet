@@ -17,4 +17,6 @@
     <string name="ports2">2 Ports Available</string>
     <string name="station3">ChargePoint Station 3</string>
     <string name="street3">street adas 123 123</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

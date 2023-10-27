@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#1A132B"
+    tools:context=".ChargeStation">
+
+
+
+        <ImageView
+            android:layout_width="102dp"
+            android:layout_height="94dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="67dp"
+            android:src="@drawable/station1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="166dp"
+        android:layout_marginTop="67dp"
+        android:fontFamily="@font/outfit_regular"
+        android:text="@string/station1"
+        android:textColor="@color/card_text_color"
+        android:textSize="20sp" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="173dp"
+            android:layout_marginTop="112dp"
+            android:fontFamily="@font/poppins_light_style"
+            android:text="@string/street1"
+            android:textAllCaps="true"
+            android:textColor="@color/card_street_text_color"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="173dp"
+            android:layout_marginTop="133dp"
+            android:fontFamily="@font/poppins_light_style"
+            android:text="@string/country"
+            android:textColor="@color/card_street_text_color"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="172dp"
+            android:layout_marginTop="163dp"
+            android:fontFamily="@font/poppins_medium_style"
+            android:text="@string/ports"
+            android:textColor="@color/ports" />
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="265dp"
+           android:layout_marginStart="39dp"
+           android:layout_marginEnd="42dp"
+           android:layout_marginTop="222dp"
+           android:orientation="vertical"
+           android:background="@drawable/shape"
+           >
+
+
+       </LinearLayout>
+
+</FrameLayout>
