@@ -19,4 +19,11 @@
     <string name="street3">street adas 123 123</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="level">Level 3</string>
+    <string name="port_type">port type</string>
+    <string name="_0_2_per_kwh">$0.2 per kwh</string>
+    <string name="cost">cost</string>
+    <string name="_200_a_96_kw">200 A, 96 kW</string>
+    <string name="power">power</string>
+    <string name="button_text">Open in Google Maps</string>
 </resources>

@@ -7,7 +7,7 @@ import com.example.xmldesign.databinding.FragmentChargeStationBinding
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
-
+    private val bottomSheetFragment = ChargeStation()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun showBottomScreen() {
-            val bottomSheetFragment = ChargeStation()
+
             bottomSheetFragment.show(supportFragmentManager, bottomSheetFragment.tag)
 
     }

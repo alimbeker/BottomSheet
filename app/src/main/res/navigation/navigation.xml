@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/chargeStation">
+    <dialog
+        android:id="@+id/chargeStation"
+        android:name="com.example.xmldesign.ChargeStation"
+        android:label="fragment_charge_station"
+        tools:layout="@layout/fragment_charge_station" >
+        <argument
+            android:name="arg1"
+            app:argType="string" />
+        <argument
+            android:name="arg2"
+            app:argType="string" />
+        <argument
+            android:name="arg3"
+            app:argType="string" />
+        <argument
+            android:name="arg4"
+            app:argType="string" />
+    </dialog>
+</navigation>
