@@ -16,6 +16,7 @@ class ChargeStation : BottomSheetDialogFragment() {
     private lateinit var binding: FragmentChargeStationBinding
 
 
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -45,7 +46,7 @@ class ChargeStation : BottomSheetDialogFragment() {
 
 
     override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
-        val dialog = BottomSheetDialog(requireContext(), R.style.AppBottomSheetDialogTheme)
+        val dialog = BottomSheetDialog(requireContext(), R.style.CustomBottomSheetDialog)
 
         dialog.setOnShowListener { dialogInterface ->
             val bottomSheetDialog = dialogInterface as BottomSheetDialog
