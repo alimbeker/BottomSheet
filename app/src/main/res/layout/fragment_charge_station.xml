@@ -29,6 +29,7 @@
             android:src="@drawable/station1" />
 
     <TextView
+        android:id="@+id/station"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="166dp"
@@ -39,6 +40,7 @@
         android:textSize="20sp" />
 
     <TextView
+        android:id="@+id/street"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="173dp"
@@ -50,6 +52,7 @@
             android:textSize="12sp" />
 
         <TextView
+            android:id="@+id/country"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="173dp"
@@ -60,6 +63,7 @@
             android:textSize="12sp" />
 
         <TextView
+            android:id="@+id/number_of_ports"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="172dp"

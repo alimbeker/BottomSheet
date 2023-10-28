@@ -40,13 +40,16 @@ class MainFragment : Fragment() {
 
     private fun showBottomScreen(arg1: String, arg2: String,arg3: String, arg4: String) {
 
+        val bottomSheetFragment = ChargeStation()
+
+        val args = Bundle()
+        args.putString("arg1", arg1)
+        args.putString("arg2", arg2)
+        args.putString("arg3", arg3)
+        args.putString("arg4", arg4)
+
+        bottomSheetFragment.arguments = args
         bottomSheetFragment.show(childFragmentManager, bottomSheetFragment.tag)
-
-//        findNavController().navigate(R.id.action_mainFragment2_to_chargeStation)
-//
-//        val action = MainFragmentDirections.actionChargeStationFragment(arg1, arg2, arg3, arg4)
-//        findNavController().navigate(action)
-
     }
 
 

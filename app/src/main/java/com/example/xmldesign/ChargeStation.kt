@@ -22,6 +22,20 @@ class ChargeStation : BottomSheetDialogFragment() {
     ): View? {
         //binding
         binding = FragmentChargeStationBinding.inflate(inflater, container, false)
+        val arg1 = arguments?.getString("arg1")
+        val arg2 = arguments?.getString("arg2")
+        val arg3 = arguments?.getString("arg3")
+        val arg4 = arguments?.getString("arg4")
+
+        binding.station.text = arg1.toString()
+        binding.street.text = arg2.toString()
+        binding.country.text = arg3.toString()
+        binding.numberOfPorts.text = arg4.toString()
+
+
+
+
+
 
 
         return binding.root
