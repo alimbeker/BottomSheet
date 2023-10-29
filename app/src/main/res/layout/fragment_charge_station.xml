@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="wrap_content"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:orientation="vertical"
     tools:context=".ChargeStation">
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        >
+
+
+
     <ImageView
         android:layout_width="82dp"
         android:layout_height="6dp"
@@ -18,32 +17,34 @@
         android:src="@drawable/line"
         />
 
-    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="43dp">
 
         <ImageView
             android:layout_width="102dp"
             android:layout_height="94dp"
             android:layout_marginStart="44dp"
-            android:layout_marginTop="67dp"
             android:src="@drawable/station1" />
 
-    <TextView
-        android:id="@+id/station"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="166dp"
-        android:layout_marginTop="67dp"
-        android:fontFamily="@font/outfit_regular"
-        android:text="@string/station1"
-        android:textColor="@color/card_text_color"
-        android:textSize="20sp" />
+        <TextView
+            android:id="@+id/station"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="166dp"
+            android:fontFamily="@font/outfit_regular"
+            android:text="@string/station1"
+            android:textColor="@color/card_text_color"
+            android:textSize="20sp" />
 
-    <TextView
-        android:id="@+id/street"
+        <TextView
+            android:id="@+id/street"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="173dp"
-            android:layout_marginTop="112dp"
+            android:layout_marginTop="45dp"
             android:fontFamily="@font/poppins_light_style"
             android:text="@string/street1"
             android:textAllCaps="true"
@@ -55,7 +56,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="173dp"
-            android:layout_marginTop="133dp"
+            android:layout_marginTop="65dp"
             android:fontFamily="@font/poppins_light_style"
             android:text="@string/country"
             android:textColor="@color/card_street_text_color"
@@ -66,17 +67,18 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="172dp"
-            android:layout_marginTop="163dp"
+            android:layout_marginTop="94dp"
             android:fontFamily="@font/poppins_medium_style"
             android:text="@string/ports"
             android:textColor="@color/ports" />
+    </FrameLayout>
 
-       <FrameLayout
+    <FrameLayout
            android:layout_width="match_parent"
            android:layout_height="265dp"
            android:layout_marginStart="39dp"
            android:layout_marginEnd="42dp"
-           android:layout_marginTop="222dp"
+           android:layout_marginTop="45dp"
            android:background="@drawable/shape"
            >
          <TextView
@@ -201,7 +203,7 @@
         android:backgroundTint="@color/button_color"
         app:cornerRadius="35dp"
         android:layout_marginStart="39dp"
-        android:layout_marginTop="512dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="42dp"
         android:layout_marginBottom="35dp"
 
@@ -213,4 +215,4 @@
 
         />
 
-</FrameLayout>
+</LinearLayout>

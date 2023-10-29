@@ -22,15 +22,15 @@ class MainFragment : Fragment() {
 
 
         binding.chargeStation1.setOnClickListener {
-            showBottomScreen("ChargePoint Station 1", "street pulo 25", "amesterdam, netherlands", "8 ports available")
+            showBottomScreen("ChargePoint Station 1", "street pulo 25", "Amesterdam, Netherlands", "8 ports available")
         }
 
         binding.chargeStation2.setOnClickListener {
-            showBottomScreen("ChargePoint Station 2","street srna 74", "amesterdam, netherlands", "2 ports available")
+            showBottomScreen("ChargePoint Station 2","street srna 74", "Amesterdam, Netherlands", "2 ports available")
         }
 
         binding.chargeStation3.setOnClickListener {
-            showBottomScreen("ChargePoint Station 3","street adas 123 123", "amesterdam, netherlands", "5 ports available")
+            showBottomScreen("ChargePoint Station 3","street adas 123 123", "Amesterdam, Netherlands", "5 ports available")
         }
 
 

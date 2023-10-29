@@ -22,9 +22,10 @@
 
     </style>
 
-    <style name="CustomBottomSheet" parent="Widget.MaterialComponents.BottomSheet">
-        <item name="android:background">@drawable/main_shape</item>
+    <style name="CustomBottomSheet" parent="@style/Widget.MaterialComponents.BottomSheet">
         <item name="shapeAppearanceOverlay">@style/CustomShapeAppearanceBottomSheetDialog</item>
+        <item name="android:background">@color/background_bottom</item>
+
     </style>
 
 
