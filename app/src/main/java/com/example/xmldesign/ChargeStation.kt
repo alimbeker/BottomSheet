@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.content.ContextCompat
 import com.example.xmldesign.databinding.FragmentChargeStationBinding
 import com.google.android.material.bottomsheet.BottomSheetBehavior
 import com.google.android.material.bottomsheet.BottomSheetDialog
@@ -28,10 +29,18 @@ class ChargeStation : BottomSheetDialogFragment() {
         val arg3 = arguments?.getString("arg3")
         val arg4 = arguments?.getString("arg4")
 
+
         binding.station.text = arg1.toString()
         binding.street.text = arg2.toString()
         binding.country.text = arg3.toString()
-        binding.numberOfPorts.text = arg4.toString()
+
+        if (arg1.equals("ChargePoint Station 2")) {
+            binding.numberOfPorts.text = arg4.toString()
+            binding.numberOfPorts.setTextColor(ContextCompat.getColor(requireContext(), R.color.gold))
+        } else {
+            binding.numberOfPorts.text = arg4.toString()
+        }
+
 
 
 
