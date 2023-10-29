@@ -24,7 +24,7 @@
 
     <style name="CustomBottomSheet" parent="@style/Widget.MaterialComponents.BottomSheet">
         <item name="shapeAppearanceOverlay">@style/CustomShapeAppearanceBottomSheetDialog</item>
-        <item name="android:background">@color/background_bottom</item>
+        <item name="backgroundTint">@color/background_bottom</item>
 
     </style>
 
